@@ -1,0 +1,10 @@
+name: pyproyect
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14
+  - pip
+  - pip:
+      - pygame-ce>=2.5.0
+
